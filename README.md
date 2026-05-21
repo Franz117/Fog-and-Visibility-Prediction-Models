@@ -23,53 +23,18 @@ The objective is to provide a more accurate and scalable solution for quantitati
 
 ## Folder Structure
 
-├── CNN
-│   ├── mains
-│   │   ├── cnn.ipynb
-│   │   ├── foggy.ipynb
-│   │   └── Visibility.ipynb
-│   │
-│   └── resources
-│       ├── dataset
-│       ├── example
-│       ├── images
-│       ├── valid
-│       ├── visibility
-│       └── weights
-│
-├── Presentation
-│   ├── Images
-│   └── Fog_and_Visibility.pdf
-│
-└── Random_Forest
-    ├── data.csv
-    ├── Random_Forest.R
-    └── Statistical_Analysis.R
+- `CNN/` — Core Jupyter notebooks (`cnn.ipynb`, `foggy.ipynb`, `Visibility.ipynb`)  
+- `CNN/resources/` — Datasets, images, validation data, and trained weights (large files)
 
-## Usage
+- `Presentation/` — Project presentation materials  
+- `Presentation/Images/` — Figures used in the presentation  
+- `Presentation/Fog_and_Visibility.pdf` — Final presentation PDF  
 
-### CNN Approach
-Open the notebooks inside:
+- `Random_Forest/` — Random Forest analysis project  
+- `Random_Forest/data.csv` — Dataset used for training/testing  
+- `Random_Forest/Random_Forest.R` — Main R implementation  
+- `Random_Forest/Statistical_Analysis.R` — Statistical evaluation scripts  
 
-CNN/mains/
-
-Run:
-- cnn.ipynb
-- foggy.ipynb
-- Visibility.ipynb
-
-Datasets and trained weights are stored in:
-
-CNN/resources/
-
-### Random Forest Approach
-Run the R scripts inside:
-
-Random_Forest/
-
-Main scripts:
-- Random_Forest.R
-- Statistical_Analysis.R
 
 ## Methods
 
@@ -94,5 +59,3 @@ The repository includes:
 ## Competition
 This project was developed as part of the ECMI Student Competition 2024.
 
-## Authors
-Academic project developed for research and educational purposes.
